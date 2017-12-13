@@ -12,7 +12,7 @@ import shapely.wkt
 
 
 import folium
-from folium.plugins import MarkerCluster, FastMarkerCluster
+from folium.plugins import MarkerCluster, FastMarkerCluster, HeatMapWithTime
 from folium import IFrame
 
 with open('conflict.pickle', 'rb') as data_source:
@@ -20,6 +20,9 @@ with open('conflict.pickle', 'rb') as data_source:
 
 with open('refugee.pickle', 'rb') as data_source:
         refugee_df = pickle.load(data_source)
+
+conflict_df.date_start = pd.to_numeric(conflict_df.date_start)
+conflict_df = conflict_df.sort_values("date_start")
 
 geometry = conflict_df['geom_wkt'].map(shapely.wkt.loads)
 conflict_df = conflict_df.drop('geom_wkt', axis=1)
@@ -71,22 +74,41 @@ table#t01 tr:nth-child(even) {{
 """.format
 
 
-m = folium.Map(tiles='cartodbpositron')
+m = folium.Map(tiles='cartodbpositron', world_copy_jump = True, no_wrap=True)
 
 print("Rows to parse:{}".format(len(gdf)))
 
 width, height = 310,110
-popups, locations = [], []
+empty_year_array = [[] for year in conflict_df.date_start.unique()]
+popups, locations = empty_year_array, empty_year_array
 for idx, row in tqdm(gdf.iterrows()):
-    locations.append([row['geometry'].y, row['geometry'].x])
+    year = row['year'] - 1989
+    locations[year].append([row['geometry'].y, row['geometry'].x])
     name = row['conflict_name'].encode('ascii', 'xmlcharrefreplace')
     deaths = row['best']
-    iframe = folium.IFrame(table('Deaths', name, deaths), width=width, height=height)
-    popups.append(iframe)
+    time = row['date_start']
+    iframe = folium.IFrame(table('Deaths', name, deaths, time), width=width, height=height)
+    popups[year].append(iframe)
 
 
-h = folium.FeatureGroup(name='Deaths')
-h.add_child(FastMarkerCluster(locations))
+#h = folium.FeatureGroup(name='Deaths')
+print(len(locations))
+print(len(popups))
+for year in tqdm(conflict_df.date_start.unique()-1989):
+
+    mc = MarkerCluster(locations=locations[year], popups=popups[year], overlay=True, control=True)
+    mc.add_to(m)
+folium.LayerControl().add_to(m)
+
+#h.add_child(FastMarkerCluster(locations))
 m.add_child(h)
-
 m.save("output_map.html")
+
+m = folium.Map(tiles='cartodbpositron', world_copy_jump = True, no_wrap=True)
+
+event_list = conflict_df[["latitude", "longitude", "best", "date_start"]]
+list_of_event= [[row.latitude, row.longitude, row.best] for row in event_list.itertuples()]
+date_list = [row.date_start for row in event_list.itertuples()]
+hm = HeatMapWithTime(data=list_of_event[:100], index=event_list.date_start[:100], max_opacity=0.3)
+hm.add_to(m)
+m.save("output_map_heat.html")
