@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 
 import numpy as np
 import pandas as pd
@@ -15,10 +16,10 @@ import folium
 from folium.plugins import MarkerCluster, FastMarkerCluster, HeatMapWithTime
 from folium import IFrame
 
-with open('conflict.pickle', 'rb') as data_source:
+with open(os.path.join('pickle', 'conflict.pickle'), 'rb') as data_source:
         conflict_df = pickle.load(data_source)
 
-with open('refugee.pickle', 'rb') as data_source:
+with open(os.path.join('pickle', 'refugee.pickle'), 'rb') as data_source:
         refugee_df = pickle.load(data_source)
 
 conflict_df.date_start = pd.to_numeric(conflict_df.date_start)
@@ -91,18 +92,18 @@ for idx, row in tqdm(gdf.iterrows()):
     popups[year].append(iframe)
 
 
-#h = folium.FeatureGroup(name='Deaths')
+h = folium.FeatureGroup(name='Deaths')
 print(len(locations))
 print(len(popups))
-for year in tqdm(conflict_df.date_start.unique()-1989):
+#for year in tqdm(conflict_df.date_start.unique()-1989):
+#
+#    mc = MarkerCluster(locations=locations[year], popups=popups[year], overlay=True, control=True)
+#    mc.add_to(m)
+#folium.LayerControl().add_to(m)
 
-    mc = MarkerCluster(locations=locations[year], popups=popups[year], overlay=True, control=True)
-    mc.add_to(m)
-folium.LayerControl().add_to(m)
-
-#h.add_child(FastMarkerCluster(locations))
-m.add_child(h)
-m.save("output_map.html")
+h.add_child(FastMarkerCluster(locations))
+#m.add_child(h)
+m.save(os.path.join('results', "output_map.html"))
 
 m = folium.Map(tiles='cartodbpositron', world_copy_jump = True, no_wrap=True)
 
@@ -111,4 +112,4 @@ list_of_event= [[row.latitude, row.longitude, row.best] for row in event_list.it
 date_list = [row.date_start for row in event_list.itertuples()]
 hm = HeatMapWithTime(data=list_of_event[:100], index=event_list.date_start[:100], max_opacity=0.3)
 hm.add_to(m)
-m.save("output_map_heat.html")
+m.save(os.path.join('results', "output_map_heat.html"))
