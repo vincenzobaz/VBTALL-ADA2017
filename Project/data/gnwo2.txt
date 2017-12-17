@@ -95,6 +95,7 @@
 484;Congo, Republic of
 484;Congo Republic
 484;Congo (Republic)
+484;Congo (Democratic Republic of the)
 484;Rep Congo
 484;Congo, Rep of the
 484;CongoRep
@@ -126,6 +127,7 @@
 437;Côte d'Ivoire
 437;Cote d`Ivoire
 437;Cote D'Ivoire
+437;Cte d'Ivoire
 437;C?e d'Ivoire
 437;C?te d'Ivoire (Ivory Coast)
 437;C??te d'Ivoire
@@ -278,6 +280,7 @@
 732;Korea South
 732;Korea Rep
 732;Korea, Republic of
+732;Korea (Republic of)
 732;Korea, Rep
 732;South Korea
 732;ROK
@@ -346,6 +349,7 @@
 359;Republic of Moldova
 359;Moldova Rep
 359;Moldova, Republic Of
+359;Moldova (Republic of)
 359;Republic Of Moldova
 221;Monaco
 712;Mongolia
@@ -489,6 +493,7 @@
 510;Tanzania, United Rep of 
 510;Tanzania, United Rep of 
 510;Tanzania, United Republic of
+510;Tanzania (United Republic of)
 510;United Rep of Tanzania
 510;United Republic of Tanzania
 800;Thailand
