@@ -30,3 +30,38 @@ Data size is manageable as csv files have very reasonable size and can be stored
  - Is it possible to include data from additional datasets later on?
  - We think we will use the networkx library for our graphs? Do you think it will work with the UCDP dataset? Do you recommend other libraries?
 
+
+# Milestone 2 roundup
+**The code for the milestone 2 is in the `notebook-merge.ipynb` notebook**.
+
+We imported and got acquainted with the main dataset. As planned, we imported
+some complementary data from the United Nations Human High Commissioner for Refugees.
+
+Both dataset required some cleaning and wrangling. The data was imported into
+pandas dataframes:
+
+ - A simple dataframes generated from the UCDP csv data file to which we added
+the computed duration of each event.
+ - A dataframe where we grouped events by conflict and aggregated some of the related
+statistics.
+ - A dataframe containing the cleaned data about refugees.
+ - A dataframe linking the displacement of refugees to the events described in
+the UCDP dataset.
+
+We then proceeded to build some networkx graphs which, together with the dataframes,
+will be the main data structure that we will use for our analysis:
+
+ - a network linking events to conflicts: the conflicts coordinates are computed
+as the centroid of the singular events (mean of latitude and longitude). The edges
+linking events to conflicts will contain information about the distance between the
+conflict and the event.
+ - A network whose nodes ar the distinct `side_a` and `side_b` of the events
+connected by edges containing information about the number of deaths in the event.
+
+We also tried to start to visualize the data. `geopandas` allowed to easily draw
+static maps to quickly get acquainted with the data. However we wanted to build
+interactive visualizations using pandas. The number of markers to plot being
+relatively high, the notebook-folium interaction could not complete the operation.
+Therefore we resulted to generating the html/javascript from the notebook and to
+open it in a browser.
+
