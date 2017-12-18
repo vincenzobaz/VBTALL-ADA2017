@@ -1,0 +1,593 @@
+396;Abkhazia
+700;Afghanistan
+700;Afganistan
+700;Afghanistan, Islamic Republic of
+700;Afghanistan, Islamic Rep of (Afghanistan)
+700;Afghanistan(1992-)
+339;Albania
+615;Algeria
+232;Andorra
+540;Angola
+;Anguilla
+58;Antigua and Barbuda
+58;Antigua
+58;Antigua & Barbuda
+58;Antigua & B
+160;Argentina
+160;Argentin
+371;Armenia
+371;Armenia, Republic of
+;Aruba
+900;Australia
+900;Australia*
+305;Austria
+305;Austria*
+300;Austria-Hungary
+373;Azerbaijan
+373;Azerbaijan, Republic of
+267;Baden
+31;Bahamas
+31;Bahamas, The
+692;Bahrain
+692;Bahrain, Kingdom of
+692;Bahrein
+771;Bangladesh
+53;Barbados
+245;Bavaria
+370;Belarus
+370;Byelorussia
+211;Belgium
+211;Belgo-Luxembourg Economic Union
+80;Belize
+434;Benin
+434;Benin (Dahomey)
+760;Bhutan
+145;Bolivia
+346;Bosnia
+346;Bosnia-Hercegovina
+346;Bosnia-Hercegovenia
+346;Bosnia-Herz
+346;Bosnia-Herzegovina
+346;Bosnia-Herz
+346;Bosnia and Herzegovina
+346;Bosnia & Herzegovina
+346;Bosnia Herzegovenia
+571;Botswana
+140;Brazil
+835;Brunei
+835;Brunei Darussalam
+355;Bulgaria
+439;Burkina Faso
+439;Burkina Faso (Upper Volta)
+516;Burundi
+811;Cambodia
+811;Kampuchea
+811;Kampuchea, Democratic
+811;Cambodia (Kampuchea)
+471;Cameroon
+471;Cameroun
+20;Canada
+402;Cape Verde Is
+402;Cape Verde Is
+402;Cape Verde
+402;C Verde Is
+482;Central African Republic
+482;Central African Rep
+482;Central African Rep
+482;Cent Af Rep
+482;Cen African Rep
+482;CAR
+483;Chad
+155;Chile
+710;China
+710;China P Rep
+710;China, PR
+710;China, PR: Mainland
+710;PRC
+100;Colombia
+100;Columbia
+581;Comoros
+581;Comoro Is
+581;Comoro Is
+484;Congo
+484;Congo, Rep
+484;Congo, Rep of
+484;Congo, Republic of
+484;Congo Republic
+484;Congo (Republic)
+484;Congo (Democratic Republic of the)
+484;Rep Congo
+484;Congo, Rep of the
+484;CongoRep
+484;Congo (Brazzaville)
+484;Congo, Brazzaville
+484;Congo Brazzaville
+484;Congo (Brazzaville,Rep of Congo)
+484;Congo (Brazzaville, Republic of Congo)
+484;Congo, Republic of (Brazzaville)
+490;Congo (Kinshasa)
+490;Congo Kinshasa
+490;Congo, Kinshasa
+490;Congo, Democratic Republic of
+490;Congo, Democratic Republic
+490;Congo, the Democratic Republic of the
+490;Congo, Dem Rep
+490;Congo (Democratic Republic)
+490;Congo/Zaire
+490;Congo, Democratic Republic of (Zaire) 
+490;Congo, Democratic Republic of the Za?re) 
+490;CongoDemRep
+490;Democratic Republic of the Congo
+490;Zaire
+490;Zaire/Congo Dem Rep
+490;Zaire (Democ Republic Congo)
+490;Zaire (Congo after 1997)
+94;Costa Rica
+437;Cote d'Ivoire
+437;Côte d'Ivoire
+437;Cote d`Ivoire
+437;Cote D'Ivoire
+437;Cte d'Ivoire
+437;C?e d'Ivoire
+437;C?te d'Ivoire (Ivory Coast)
+437;C??te d'Ivoire
+437;Cote dIvoire
+437;Ivory Coast
+344;Croatia
+40;Cuba
+352;Cyprus
+352;Cyprus (Greek)
+352;Cyprus (G)
+;Cyprus (Turkey)
+;Turk Cyprus
+315;Czechoslovakia
+315;Czechoslavakia
+315;Former Czechoslovakia
+316;Czech Rep
+316;Czech Rep
+316;Czech Republic
+316;CzechRepublic
+316;Czech Rep (C-Slv)
+390;Denmark
+390;Denmark*
+522;Djibouti
+54;Dominica
+42;Dom Rep
+42;Dom Rep
+42;Dominican Rep
+42;Dominican Republic
+42;Dominican Rep
+860;East Timor
+860;East Timor (Timor-Leste)
+860;Timor-Leste
+860;Timor-Leste, Dem Rep of
+860;TimorLeste
+860;Timor-Leste (East Timor)
+130;Ecuador
+651;Egypt
+651;Egypt, Arab Rep
+651;EgyptArabRep
+92;El Salvador
+92;ElSalvador
+92;Salvador
+411;Equatorial Guinea
+411;Eq Guinea
+531;Eritrea
+366;Estonia
+530;Ethiopia (former)
+530;Ethiopia
+987;Federated States of Micronesia
+950;Fiji
+375;Finland
+220;France
+481;Gabon
+420;Gambia
+420;Gambia The
+420;Gambia, The
+372;Georgia
+260;Germany 
+260;Germany Fed Rep
+260;German Federal Republic
+260;FRG/Germany
+260;Germany, W
+260;Germany West
+260;Germany, FR
+260;FR Germany
+265;Germany Dem Rep
+265;Germany DR
+265;GDR
+265;Germany, E
+265;East Germany
+265;Germany East
+265;German Democratic Republic
+452;Ghana
+99;Great Colombia
+99;Gran Colombia
+350;Greece
+55;Grenada
+90;Guatemala
+438;Guinea
+438;Guineau
+404;Guinea Bissau
+404;Guinea-Bissau
+404;Guinea-Bisau
+110;Guyana
+41;Haiti
+240;Hanover
+273;Hesse Electoral
+273;Hesse-Kassel
+275;Hesse Grand Ducal
+275;Hesse-Darmstadt
+91;Honduras
+708;Hong Kong
+708;Hong-Kong
+708;Hong Kong (SAR China)
+708;HongKong
+708;Hong Kong (China)
+708;Hong Kong, China
+708;China, PR: Hong Kong
+708;China,PR:Hong Kong
+708;Hong Kong, China
+708;HongKongSARChina
+708;Hong Kong SAR, China
+708;China, Hong Kong Special Administrative Region
+310;Hungary
+395;Iceland
+750;India
+850;Indonesia
+850;Indonesia including East Timor
+630;Iran
+630;Iran (Persia)
+630;Iran Islam Rep
+630;Iran, Islamic Rep
+630;Iran, Islamic Republic of
+630;Iran, Islamic Republic of (Iran)
+630;Iran, IR of
+630;Islamic Rep of Iran
+630;IranIslamicRep
+630;Iran (Islamic Republic of)
+645;Iraq
+205;Ireland
+666;Israel
+325;Italy
+325;Italy*
+325;Italy/Sardinia
+51;Jamaica
+740;Japan
+663;Jordan
+705;Kazakhstan
+705;Khazakhstan
+501;Kenya
+970;Kiribati
+730;Korea
+731;Korea, North
+731;Korea, N
+731;Korea (North)
+731;Korea North
+731;Korea Dem P Rep
+731;Korea, Dem Rep
+731;Korea, Dem People's Rep of
+731;Dem People's Rep Korea
+731;Korea, Democratic People's Republic of
+731;Korea, DPR
+731;North Korea
+731;Democratic People's Republic of Korea
+731;PRK
+732;Korea (South)
+730;Korea
+732;Korea, South
+732;Korea, S
+732;Korea South
+732;Korea Rep
+732;Korea, Republic of
+732;Korea (Republic of)
+732;Korea, Rep
+732;South Korea
+732;ROK
+732;Republic of Korea
+732;Korea, Republic Of
+347;Kosovo
+690;Kuwait
+703;Kyrgyzstan
+703;Kyrgyz Republic
+703;Kyrgyz Republic (Kyrgyzstan)
+812;Laos
+812;Lao PDR
+812;Lao P Dem Rep
+812;Lao People's Democratic Republic
+812;Lao People's Democratic Republic (Laos)
+367;Latvia
+660;Lebanon
+570;Lesotho
+450;Liberia
+620;Libya
+620;Libyan Arab Jamah
+620;Libya Arab Jamahiriy
+620;Libyan Arab Jamahiriya
+223;Liechtenstein
+368;Lithuania
+212;Luxembourg
+709;Macao SAR, China
+709;Macao
+709;Macao (SAR China)
+709;China, PR: Macao
+709;China, Macao Special Administrative Region
+343;Macedonia
+343;TFYR of Macedonia
+343;Macedonia FRY
+343;Macedonia, FYR
+343;FYR Macedonia
+343;Macedonia, the Former Yugoslav Republic of
+343;Macedonia, former Yugoslav Republic of
+580;Madagascar
+580;Madagascar (Malagasy Republic)
+580;Madagascar (Malagasy)
+553;Malawi
+820;Malaysia
+820;Malaysia (Malaya)
+781;Maldives
+432;Mali
+432;Marli
+338;Malta
+983;Marshall Is
+983;Marshall Islands
+983;Marshall Islan
+983;Marshall Islands, Republic of
+435;Mauritania
+590;Mauritius
+280;Mecklenburg Schwerin
+70;Mexico
+987;Micronesia
+987;Micronesia Fed States
+987;Micronesia, Fed States
+987;Micronesia, Fed Sts
+987;Micronesia, Fed Stat
+987;Micronesia, Federated States of
+987;Federated States of Micronesia
+332;Modena
+359;Moldova
+359;Republic of Moldova
+359;Moldova Rep
+359;Moldova, Republic Of
+359;Moldova (Republic of)
+359;Republic Of Moldova
+221;Monaco
+712;Mongolia
+341;Montenegro
+;Montserrat
+600;Morocco
+541;Mozambique
+775;Myanmar
+775;Myanmar (Burma)
+775;Myanmar(Burma)
+775;Burma (Myanmar)
+775;Burma
+565;Namibia
+971;Nauru
+790;Nepal
+210;Netherlands
+;Netherlands Antilles
+920;New Zealand	
+93;Nicaragua
+436;Niger
+475;Nigeria
+385;Norway
+698;Oman
+564;Orange Free State
+770;Pakistan, (1972-)
+986;Palau
+95;Panama
+95;Panama Canal Zone
+327;Papal States
+910;Papua New Guinea
+910;Pap N Guinea
+910;P N Guinea
+150;Paraguay
+335;Parma
+135;Peru
+840;Philipines
+840;Philippines 
+840;Phillippines
+840;Philippi
+290;Poland
+235;Portugal
+255;Prussia
+694;Qatar
+360;Romania
+360;Rumania
+365;Russia
+365;Russian Federation
+365;USSR
+365;USSR
+365;Soviet Union
+365;Russia (Soviet Union)
+365;Russia (USSR)
+517;Rwanda
+403;Sao Tome et Principe
+403;Sao Tome and principe
+403;Sao Tome
+403;S? Tom�and Principe
+403;Sao Tome & Principe
+403;Sao Tome & P
+403;Sao Tome and Principe
+403;S?o Tom? and Principe
+403;Sao Tom?E and Principe
+403;S?o Tom? and Pr?ncipe
+60;Saint Kitts and Nevis
+60;St Kitts and Nevis
+60;St Kitts and Nevis
+60;St Kitts & Nevis
+60;St Kitts & N
+56;Saint Lucia
+56;St Lucia
+56;St Lucia
+56;StLucia
+57;Saint Vincent and the Grenadines
+57;StVincent & Grenadines
+57;St Vin & G
+57;St Vincent and the Grenadines
+57;St Vincent & Grenadine
+57;St Vincent & Grenadines
+57;St Vincent and The Grenadines
+57;St Vincent and the Grenadines
+57;StVincentandtheGrenadines
+57;StVincentand
+57;St Vincent
+990;Samoa
+990;W Samoa
+990;W Samoa
+990;Western Samoa
+990;Samoa (Western Samoa)
+331;San Marino
+670;Saudi Arabia
+269;Saxony
+433;Senegal
+591;Seychelles
+591;Seychelle
+451;Sierra Leone
+830;Singapore
+317;Slovak Republic
+317;Slovakia
+349;Slovenia
+940;Solomon Is
+940;Solomon Is
+940;Solomon Islands
+520;Somalia
+560;South Africa
+560;SouthAfrica
+560;S Africa
+397;South Ossetia
+626;South Sudan
+626;S Sudan
+626;Sudan (South)
+365;Soviet Union
+230;Spain
+780;Sri Lanka
+780;Sri Lanka (Ceylon)
+780;SriLanka
+625;Sudan
+115;Suriname
+115;Surinam
+572;Swaziland
+380;Sweden
+225;Switzerland
+652;Syria
+652;Syrian Arab Rep
+652;Syrian Arab Republic
+652;SyrianArabRep
+652;Syrian Arab Republic (Syria)
+713;Taiwan
+713;Taiwan (China)
+713;Taiwan, China
+713;Taiwan Province of China
+713;Taiwan, Republic of China on   
+713;TaiwanChina
+713;China, Taiwan Province of
+713;Chinese Taipei
+702;Tajikistan
+510;Tanzania
+510;Tanzania (Tanganyika)
+510;Tanzania Uni Rep
+510;Tanzania, United Rep of
+510;Tanzania, United Repof
+510;Tanzania, United Rep of 
+510;Tanzania, United Rep of 
+510;Tanzania, United Republic of
+510;Tanzania (United Republic of)
+510;United Rep of Tanzania
+510;United Republic of Tanzania
+800;Thailand
+800;Thailand (Siam)
+711;Tibet
+461;Togo
+972;Tonga
+563;Transvaal
+52;Trinidad-Tobago
+52;Trinidad and Tobago
+52;Trinidad & Tobago
+52;Trinidad & T
+52;Trinidad
+616;Tunisia
+640;Turkey
+640;Turkey/Ottoman Empire
+640;Turkey (Ottoman Empire)
+701;Turkmenistan
+337;Tuscany
+973;Tuvalu
+329;Two Sicilies
+500;Uganda
+500;Ugandan
+500;Nogeria
+369;Ukraine
+696;United Arab Emirates
+696;Un Arab Em
+696;UnitedArabEmirates
+696;UAE
+696;UAE
+200;United Kingdom
+200;UnitedKingdom
+200;UK
+200;UK
+89;United Provinces of Central America
+89;United Province CA
+2;United States
+2;UnitedStates
+2;United States of America
+2;United States, America
+2;USA
+165;Uruguay
+704;Uzbekistan
+935;Vanuatu
+;Vatican City
+101;Venezuela
+101;Venezuela, RB
+101;Venezuela, RB
+101;VenezuelaRB
+101;Venezuela (Bolivarian Republic of)
+101;Venezuela, Republica Bolivariana de
+101;Venezuela, Rep?blica Bolivariana de
+816;Vietnam, Democratic Republic of
+816;Vietnam, N
+816;Vietnam, North
+816;Vietnam, N
+816;N Vietnam
+816;Vietnam North
+816;Vietnam, Socialist Republic of  
+816;Viet Nam  
+816;Vietnam  
+817;Vietnam, Republic of
+817;Vietnam, Republic of (South Vietnam)
+817;Vietnam, S
+817;Vietnam, S
+817;Vietnam South
+817;Vietnam, South
+817;S Vietnam
+817;Republic of Vietnam
+815;Vietnam (Annam/Cochin China/Tonkin)
+815;Vietnam/Annam/Cochin China/Tonkin
+271;Wuerttemburg
+678;Yemen
+678;Yemen Arab Rep
+678;Yemen Arab Rep
+678;Yemen Arab Republic
+678;Yemen (AR)
+678;Yemen, N
+678;Yemen, N
+678;Yemen North
+678;Yemen, Rep
+678;Yemen, Republic of
+678;Republic of (Southern Yemen))
+680;Yemen, S
+680;Yemen, S
+680;Yemen South
+680;Yemen, South
+680;S Yemen
+680;Yemen P Dem Rep
+680;Yemen People's Republic
+680;Yemen, People's Democratic
+680;Yemen (PDR)
+680;Yemen, PDR
+551;Zambia
+511;Zanzibar
+552;Zimbabwe
+552;Zimbabwe (Rhodesia)
