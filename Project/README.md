@@ -65,3 +65,12 @@ relatively high, the notebook-folium interaction could not complete the operatio
 Therefore we resulted to generating the html/javascript from the notebook and to
 open it in a browser.
 
+## Milestone 3 roundup
+The data story is available [here](https://vincenzobaz.github.io/VBTALL-ADA2017/).
+
+### Contributions
+ - Thomas: Network of distances, writing up the report, exploratory statistics
+ - Laurier: GDP, HDI and UNHCR datatasets extraction, wrangling and merge. Interactive maps and interactive graph.
+ - Vincenzo: Sides analysis, plots and visualizations, web page
+
+Thomas and Vincenzo will prepare the presentation, in particular Thomas will work on the poster and Vincenzo will try to adapt the visualizations in the data story to be used for the presentation.
