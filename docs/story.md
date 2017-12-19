@@ -1,16 +1,23 @@
 # Characterisation of post Cold War conflicts
 
 ## UCDP Dataset Exploration
-Since the end of the Cold War, the World has been witnessing a densification and complexification of the conflicts involving a huge number of countries. From local conflicts to conflicts spanning entire regions, the understanding of the depth and context of these events has been made more complex to non-initiated people. In our work we will attempt to use data analysis tools and techniques to extract meaningful information to help characterize and understand the main keys of those events.
+Since the end of the Cold War, the World has been witnessing a densification and complexification of the conflicts involving a huge number of countries. From local conflicts to conflicts spanning entire regions, understanding the depth and the context of these events has become more complex to non-initiated people. In our work we will attempt to use data analysis tools and techniques to extract meaningful information on conflicts in an attempt to help characterize and understand the main aspects of those events.
 
-Our work will be based on the UCDP dataset (http://ucdp.uu.se/downloads/) that tracks conflicts since 1989, on the UNHCR (United Nations Human High Commissioner for Refugees - http://popstats.unhcr.org/en/persons_of_concern) dataset, then we will use the GDP dataset of the UN (http://popstats.unhcr.org/en/persons_of_concern) and finally the HDI dataset (http://hdr.undp.org/en/2016-report).
+Our work will be based on the UCDP dataset (http://ucdp.uu.se/downloads/) that tracks conflicts since 1989, on the UNHCR (United Nations Human High Commissioner for Refugees - http://popstats.unhcr.org/en/persons_of_concern) dataset, then we will use the GDP dataset of the UN (http://popstats.unhcr.org/en/persons_of_concern) and finally the Human Development Index (HDI) dataset (http://hdr.undp.org/en/2016-report).
 
-First of all we based our work on the UCDP(GED-171) dataset. The raw data is organized so that every line in our dataframe represents an event. So we first of all grouped them by conflict, and aggregated some of the related statistics.
-The dataframe we got gave us a wide list of all the events that occured since 1989 across the world with the conflict id it is related to.
+The core of our analysis is based on the UCDP(GED-171) dataset.
+In the dataset, every line represents an event where death occured. Various classifications are given for each of these events, such as the year of occurence, the geographical location, the country, the sides of the conflicts, death tolls and more.
+We organized this dataset into a pandas dataframe from which information could be easily extracted during the project.
 
 [V]
-The Rwanda conflict initiated in 1994 is, by far, the first one in terms of victims with more than 500,000 dead people in total. The conflict that follows does not even reach 200,000 victims.
 
+The Rwanda conflict initiated in 1994 is, by far, the first one in terms of victims with more than 500,000 dead people in total. By its size, it outshines other conflicts on this graph, but it is still important to note that most of those conflict still had thousands of deaths, even if some can be obscure to the untrained eye.
+
+From this dataframe, we wanted to provide a way to see the scope of the events with a clear representation. 
+Because of the size of the dataset, we where limited in projecting every event as a single marker, because the map would become either slow or clogged by the amount of data. 
+Because of this, we chose 
+
+ 
 The first element we created to make it more meaningful and readable was an interactive timestamped map that represents all the events that occurred since 1989 and every year since then. Clicking on an event we are shown, in addition to the conflict id, the names of the two sides involved, the victims for each of them and the total.
 
 [V]
