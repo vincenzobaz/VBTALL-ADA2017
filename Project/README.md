@@ -1,5 +1,5 @@
 # Characterisation of post Cold War conflicts
-
+[Data Story](https://vincenzobaz.github.io/VBTALL-ADA2017/)
 # Abstract
 Through our studies, we’ve analysed major historical conflicts, mainly until the end of the cold war. Since the end of the cold war, we’ve seen a complexification of the conflicts that have occurred: from small, local conflicts, to conflicts spanning entire regions such as what happened with the Arab Spring. Understanding the depth and context of these conflicts is out of the reach of the non-specialist. In this work, we will attempt to use data analysis tool and techniques to extract meaningful and comprehensible informations about those conflicts. We will use the UCDP dataset that tracks conflicts since the 1989 and related datasets that can fill the gaps in specific aspects of the conflicts, such as the human movements, the economy or even the perception by external medias. In the end, we will attempt to generate networks that will add depth and new dimensions to the simple chronology of conflicts given in the UCDP dataset. Finally, we will present our result through interactive visualisations shedding light on the stories hidden in the data.
 
