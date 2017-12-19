@@ -13,7 +13,7 @@ function showMap(idx) {
     d3.select(`#map${i}`)
         .append('object')
         .attr('data', maps[i])
-        .attr('width', "70%")
+        .attr('width', "60%")
         .attr('height', "900")
         .attr('class', 'center-block');
 
