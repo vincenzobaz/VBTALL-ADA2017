@@ -47,8 +47,11 @@
                         <a href="http://popstats.unhcr.org/en/persons_of_concern">GDP dataset
                         </a> of the UN and finally the 
                         <a href="http://hdr.undp.org/en/2016-report">HDI dataset</a>.</p>
-                <p>The core of our analysis is based on the UCDP(GED-171) dataset.
-In the dataset, every line represents an event where death occured. Various classifications are given for each of these events, such as the year of occurence, the geographical location, the country, the sides of the conflicts, death tolls and more.
+                <p>The core of our analysis is based on the UCDP(GED-171) dataset. 
+In the dataset, every line represents an event where death occured.
+The dataset contains information on every country on earth, but Syria because the depth of the conflict proved to be too big for a complete analysis.
+Because of this, Syria is excluded from the analysis, even if it has clearly seen a major war in the past years.
+Various classifications are given for each of these events, such as the year of occurence, the geographical location, the country, the sides of the conflicts, death tolls and more.
 We organized this dataset into a pandas dataframe from which information could be easily extracted during the project.</p>
 
                 <h3> Base conflict analysis </h3>
@@ -91,11 +94,12 @@ We organized this dataset into a pandas dataframe from which information could b
                 <p>One key point of interest in the analysis are the factions involved in the conflicts.
                 To show the factions and their relation to each other,
                 we created a dataframe with one record per tuple and developped a network of sides where each node is a side and each edge is an event involving these two sides.</p>
-                <p>Plotting the degree distribution of the network of sides we realized that most of the factions fought against
+                <p>By plotting the degree distribution of the network of sides, we realized that most of the factions fought against
                         one unique opponent.
                 </p>
 
                 <img src='degree-distribution-sides.png' class="img-responsive center-block" alt="Degree distribution of the network of sides">
+
                 <p>In addition, to make our results even more readable we used a chord diagram that represents the top-30 deadliest
                         conflicts. In this diagram, for each continent, we link the factions between them where the size
                         of the link on the graph gets bigger as the number of victims grows. Pointing a faction on the side
@@ -119,14 +123,18 @@ We organized this dataset into a pandas dataframe from which information could b
         </div>
         <div id="map5"></div>
         <div class="container">
-                <h2>Conflicts and migrations</h2>
+                <h3>Conflicts and migrations</h3>
                 <p>To make our analysis more consistent we added other datasets to our work. The first one is the UNHCR (United
                         Nations Human High Commissioner for Refugees) dataset. This dataset records the refugee data of the
                         UN that is a dataset relating the total number of refugees by country of departure/arrival and by
                         year. Our approach was to link and try to correlate those population displacements to the conflicts
                         that occurred across the planet. To this aim we created a first map representing both the conflicts
                         (just like the first map we created in this work) and the total population displacements by country
-                        and by year. The total displacement choropleth represents people who left the country or moved inside
+                        and by year.
+                        To do so, we merged the data from the UNHCR dataset with the conflict dataset by using the country and the year as id to merge them. 
+                        This approach involved quite a bit of data wrangling, but provided a potent result in the end </p>
+                        
+                <p>The total displacement choropleth represents people who left the country or moved inside
                         this same country. We had to deal with some missing data especially when we did not have the country
                         of origin of some immigrants. We made the choice to drop these data.</p>
 
@@ -143,7 +151,7 @@ We organized this dataset into a pandas dataframe from which information could b
                         (by major we mean a significant number) conflicts with important deaths. Thus, most important population
                         displacements seem to be created by the concentration of conflicts in the area.</p>
 
-                <h2>Conflicts and economic indicators</h2>
+                <h3>Conflicts and economic indicators</h3>
                 <p>Finally, to add another dimension to our observations, we try to find a potential correlation between the
                         conflicts we found and displayed, and the GDP(Gross Domestic products) and HDI(Human Development
                         Index). Such as with the population displacement seen previously we create two maps, one with the
@@ -165,6 +173,14 @@ We organized this dataset into a pandas dataframe from which information could b
                 <p>The main observations we can find from these maps is that most of the countries with a high HDI and GDP are
                         not involved in any (or at least just a few) conflicts. On the other hand many countries involved
                         in a lot and bloody conflicts have a low GDP, especially in Africa and Middle-East.</p>
+
+                <h2> Conclusion </h2>
+
+                In this analysis, we have attempted to depict a vast dataset of over 135k separate events in powerfull, yet simple visualizations. 
+                
+                We have shown the complexity of the conflicts that have occured in the post World War era and given tools for the interested reader to deepen its knowledge on a particular conflict by providing various information on each visualized conflict.
+
+                We hope that this tool can help sensibilize the reader to the complexity of conflicts in the modern times and reveal a perspective that can't be achieved so easily with sparse data, such as the one we get in our day to day life.
 
                 <h3>Additional resources</h3>
                 <p>All the code used to perform the data extraction and analysis can be found in the Jupyter notebooks
