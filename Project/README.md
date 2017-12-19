@@ -73,3 +73,4 @@ The data story is available [here](https://vincenzobaz.github.io/VBTALL-ADA2017/
  - Laurier: GDP, HDI and UNHCR datatasets extraction, wrangling and merge. Interactive maps and interactive graph.
  - Vincenzo: Sides analysis, plots and visualizations, web page
 
+Thomas and Vincenzo will prepare the presentation, in particular Thomas will work on the poster and Vincenzo will try to adapt the visualizations in the data story to be used for the presentation.
