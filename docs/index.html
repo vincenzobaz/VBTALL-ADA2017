@@ -36,20 +36,22 @@
         <div class="container">
                 <h2 id="ucdpdatasetexploration">UCDP Dataset Exploration</h2>
                 <p>Since the end of the Cold War, the World has been witnessing a densification and complexification of the
-
                         conflicts involving a huge number of countries. From local conflicts to conflicts spanning entire
-                        regions, the understanding of the depth and context of these events has become more complex to 
-                        non-initiated people. In our work we will attempt to use data analysis tools and techniques to extract
-                        meaningful information on conflicts in an attempt to help characterize and understand the main aspects of those events.</p>
+                        regions, the understanding of the depth and context of these events has become more complex to non-initiated
+                        people. In our work we will attempt to use data analysis tools and techniques to extract meaningful
+                        information on conflicts in an attempt to help characterize and understand the main aspects of those
+                        events.</p>
                 <p>Our work will be based on the
                         <a href="http://ucdp.uu.se/downloads/">UCDP dataset</a> that tracks conflicts since 1989, on the
                         <a href="http://popstats.unhcr.org/en/persons_of_concern">UNHCR dataset</a> (United Nations Human High Commissioner for Refugees), then we will use the
                         <a href="http://popstats.unhcr.org/en/persons_of_concern">GDP dataset
-                        </a> of the UN and finally the 
+                        </a> of the UN and finally the
                         <a href="http://hdr.undp.org/en/2016-report">HDI dataset</a>.</p>
-                <p>The core of our analysis is based on the UCDP(GED-171) dataset.
-In the dataset, every line represents an event where death occured. Various classifications are given for each of these events, such as the year of occurence, the geographical location, the country, the sides of the conflicts, death tolls and more.
-We organized this dataset into a pandas dataframe from which information could be easily extracted during the project.</p>
+                <p>The core of our analysis is based on the UCDP(GED-171) dataset. In the dataset, every line represents an
+                        event where death occured. Various classifications are given for each of these events, such as the
+                        year of occurence, the geographical location, the country, the sides of the conflicts, death tolls
+                        and more. We organized this dataset into a pandas dataframe from which information could be easily
+                        extracted during the project.</p>
 
                 <h3> Base conflict analysis </h3>
 
@@ -58,39 +60,45 @@ We organized this dataset into a pandas dataframe from which information could b
                 <img src='deadliest-conflicts.png' class="img-responsive center-block" alt="Deadliest conflicts">
 
                 <p>The Rwanda conflict initiated in 1994 is, by far, the first one in terms of victims with more than 500,000
-                        deaths in total. 
-                        By its size, it outshines other conflicts on this graph, but it is still important to note that most of those conflict still had thousands of deaths, even if some can be obscure to the untrained eye.</p>
+                        deaths in total. By its size, it outshines other conflicts on this graph, but it is still important
+                        to note that most of those conflict still had thousands of deaths, even if some can be obscure to
+                        the untrained eye.</p>
                 <h3> Timestamped maps </h3>
 
-                <p>The first element we created to make the data meaningful and readable was an interactive timestamped map that
-                        represents every conflicts by year that occured from 1989 to 2016.
-                        Multiple informations are given on the map. 
-                        Blue circles provide the total number of deaths for a conflict, yearly, and their radius is proportional to the number of deaths.
-                        Pink circles provide similar information, but for the number of civilian deaths.
-                        For each event, there's a marker that is either blue, orange or red, indicating the type of the conflict, "State Based", "Non State" or "One Sided" respectively.
-                        Clicking on an event
-                        give additional informations: the conflict id, the names of the two sides involved, their country, if any, and the death tolls.</p>
+                <p>The first element we created to make the data meaningful and readable was an interactive timestamped map
+                        that represents every conflicts by year that occured from 1989 to 2016. Multiple informations are
+                        given on the map. Blue circles provide the total number of deaths for a conflict, yearly, and their
+                        radius is proportional to the number of deaths. Pink circles provide similar information, but for
+                        the number of civilian deaths. For each event, there's a marker that is either blue, orange or red,
+                        indicating the type of the conflict, "State Based", "Non State" or "One Sided" respectively. Clicking
+                        on an event give additional informations: the conflict id, the names of the two sides involved, their
+                        country, if any, and the death tolls.</p>
 
                 <button type="button" id="button0" class="btn btn-info btn-lg center-block" onclick="showMap(0)">Show map</button>
-                <div id="map0"></div>
+        </div>
+        <div id="map0"></div>
 
-                <p>To this first map we added an heatmap to represent the intensity of the conflicts.
-                This map plots all the events that occured on the planet in function of time and provide a large scale view of the conflict's intensity on a regional, state and local level depending on the selected zoom.
-                It provides a clear view of the regions in the world where most of the conflicts occured durring the period. </p>
+        <div class="container">
+                <p>To this first map we added an heatmap to represent the intensity of the conflicts. This map plots all the
+                        events that occured on the planet in function of time and provide a large scale view of the conflict's
+                        intensity on a regional, state and local level depending on the selected zoom. It provides a clear
+                        view of the regions in the world where most of the conflicts occured durring the period. </p>
 
                 <button type="button" id="button1" class="btn btn-info btn-lg center-block" onclick="showMap(1)">Show map</button>
         </div>
         <div id="map1"></div>
         <div class="container">
 
-                <p>The first  observation we can make is that most of the conflicts reported since 1989 are located in Africa, the Middle-East, south-west Asia and in Central-America and Mexico.
-                We can also see that regions considered to be occidental, such as Europe, North-America(excluding Mexico) and Australia, where mostly kept out of major conflicts on their soil, except in Terrorism events.</p>
+                <p>The first observation we can make is that most of the conflicts reported since 1989 are located in Africa,
+                        the Middle-East, south-west Asia and in Central-America and Mexico. We can also see that regions
+                        considered to be occidental, such as Europe, North-America(excluding Mexico) and Australia, where
+                        mostly kept out of major conflicts on their soil, except in Terrorism events.</p>
 
                 <h3> Faction Analysis </h3>
 
-                <p>One key point of interest in the analysis are the factions involved in the conflicts.
-                To show the factions and their relation to each other,
-                we created a dataframe with one record per tuple and developped a network of sides where each node is a side and each edge is an event involving these two sides.</p>
+                <p>One key point of interest in the analysis are the factions involved in the conflicts. To show the factions
+                        and their relation to each other, we created a dataframe with one record per tuple and developped
+                        a network of sides where each node is a side and each edge is an event involving these two sides.</p>
                 <p>Plotting the degree distribution of the network of sides we realized that most of the factions fought against
                         one unique opponent.
                 </p>
